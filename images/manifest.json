@@ -1,0 +1,66 @@
+{
+  "id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in mkimechentel/Quran-Reading-Study project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 1638,
+    "id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_48_17/canvas/",
+    "label" : {
+      "none" : [ "Hafs_48_17" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_48_17/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_48_17/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 52,
+              "height" : 64
+            }, {
+              "width" : 103,
+              "height" : 128
+            }, {
+              "width" : 205,
+              "height" : 256
+            }, {
+              "width" : 410,
+              "height" : 512
+            }, {
+              "width" : 819,
+              "height" : 1024
+            }, {
+              "width" : 1638,
+              "height" : 2048
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1638,
+            "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_48_17",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2048
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1638,
+          "id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_48_17/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2048
+        },
+        "target" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_48_17/canvas/"
+      } ]
+    } ],
+    "height" : 2048
+  } ]
+}
