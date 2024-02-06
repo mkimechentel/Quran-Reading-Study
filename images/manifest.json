@@ -7,6 +7,63 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
     "width" : 1024,
+    "id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Warsh_15_8/canvas/",
+    "label" : {
+      "none" : [ "Warsh_15_8" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Warsh_15_8/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Warsh_15_8/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 32,
+              "height" : 41
+            }, {
+              "width" : 64,
+              "height" : 82
+            }, {
+              "width" : 128,
+              "height" : 164
+            }, {
+              "width" : 256,
+              "height" : 328
+            }, {
+              "width" : 512,
+              "height" : 656
+            }, {
+              "width" : 1024,
+              "height" : 1311
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1024,
+            "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Warsh_15_8",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1311
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1024,
+          "id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Warsh_15_8/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1311
+        },
+        "target" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Warsh_15_8/canvas/"
+      } ]
+    } ],
+    "height" : 1311
+  }, {
+    "width" : 1024,
     "id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Warsh_21_4/canvas/",
     "label" : {
       "none" : [ "Warsh_21_4" ]
