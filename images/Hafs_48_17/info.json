@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 52,
+    "height" : 64
+  }, {
+    "width" : 103,
+    "height" : 128
+  }, {
+    "width" : 205,
+    "height" : 256
+  }, {
+    "width" : 410,
+    "height" : 512
+  }, {
+    "width" : 819,
+    "height" : 1024
+  }, {
+    "width" : 1638,
+    "height" : 2048
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1638,
+  "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_48_17",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2048
+}
