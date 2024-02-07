@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://mkimechentel.github.io/Quran-Reading-Study/annotations/8245d60eddf1ae96263f73b1aef0b0a9.json" ],
+  "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/annotations/collection.json",
+  "label" : "All annotations loaded in mkimechentel/Quran-Reading-Study project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
