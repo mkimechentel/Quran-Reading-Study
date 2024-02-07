@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "It's the letter&nbsp;ي which indicates the third person singular",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>It's the letter&nbsp;ي which indicates the third person singular</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/102488523",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-02-07T10:11:58",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1707300718276",
+    "dcterms:modified" : "2024-02-07T10:11:58",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/manifests/warsh_48_17.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=582,1070,68,79"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M591.62915,1081.21123c6.23775,-6.65612 15.03711,-11.6127 23.87912,-11.60678v0v0c8.842,0.00592 16.54487,4.64273 23.87912,11.60678c7.33425,6.96405 10.18497,17.57593 9.89105,28.02125c-0.29392,10.44532 -3.73249,20.72409 -9.89105,28.02125c-6.15856,7.29716 -15.03711,11.6127 -23.87912,11.60678c-8.842,-0.00592 -17.64745,-4.33331 -23.87912,-11.60678c-6.23166,-7.27347 -9.88953,-17.49302 -9.89105,-28.02125c-0.00152,-10.52823 3.6533,-21.36513 9.89105,-28.02125z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_c5845325-a08c-4ece-8f37-648d19586e4b\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://8935e8fd-16fa-4f1c-8b45-961682f57176"
+    } ]
+  } ],
+  "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/annotations/8245d60eddf1ae96263f73b1aef0b0a9.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
