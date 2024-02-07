@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/manifests/hafs_15_8.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://6fdf01fa-453a-45f1-949f-55828ce8e783",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://edc43f68-9667-4fcc-8899-0ab1f4ff436f",
+      "@type" : "sc:Canvas",
+      "label" : "Hafs_15_8",
+      "height" : 2048,
+      "width" : 1638,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://136c944c-dc18-405d-a85a-767b0b88ca14",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_15_8/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_15_8",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2048,
+          "width" : 1638
+        },
+        "on" : "http://edc43f68-9667-4fcc-8899-0ab1f4ff436f"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
