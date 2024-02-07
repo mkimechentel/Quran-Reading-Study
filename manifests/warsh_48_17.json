@@ -1,0 +1,64 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/manifests/warsh_48_17.json",
+  "@type" : "sc:Manifest",
+  "label" : "BnF. Département des Manuscrits. Arabe 6430",
+  "metadata" : [ {
+    "label" : "Extent",
+    "value" : "265 folios"
+  }, {
+    "label" : "Format",
+    "value" : "134 x 164"
+  }, {
+    "label" : "Text area dimensions",
+    "value" : "109 x 133"
+  }, {
+    "label" : "Estimated date",
+    "value" : "900-1000"
+  }, {
+    "label" : "Writing surface",
+    "value" : "Paper"
+  } ],
+  "description" : [ {
+    "@value" : "Quran",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Bibliothèque nationale de France",
+  "sequences" : [ {
+    "@id" : "http://ca5e4eb8-b5cb-45aa-99b9-e20458a7c5ae",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://8935e8fd-16fa-4f1c-8b45-961682f57176",
+      "@type" : "sc:Canvas",
+      "label" : "warsh_48_17",
+      "height" : 1309,
+      "width" : 1024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://bc8a246a-120f-495f-8dc2-94e2126c003e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Warsh_48_17/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Warsh_48_17",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1309,
+          "width" : 1024
+        },
+        "on" : "http://8935e8fd-16fa-4f1c-8b45-961682f57176"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
