@@ -2,45 +2,57 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/manifests/hafs_15_8.json",
   "@type" : "sc:Manifest",
-  "label" : "[Click to edit label]",
-  "metadata" : [ ],
+  "label" : "Chester Beatty Library (Leabharlann Chester Beatty): Is. 1431",
+  "metadata" : [ {
+    "label" : "Extent",
+    "value" : "287 folios"
+  }, {
+    "label" : "Format",
+    "value" : "130 x 177"
+  }, {
+    "label" : "Estimated date",
+    "value" : "1000-1000"
+  }, {
+    "label" : "Writing surface",
+    "value" : "Paper"
+  } ],
   "description" : [ {
-    "@value" : "[Click to edit description]",
+    "@value" : "Quran",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "[Click to edit attribution]",
+  "attribution" : "Chester Beatty Library",
   "sequences" : [ {
-    "@id" : "http://6fdf01fa-453a-45f1-949f-55828ce8e783",
+    "@id" : "http://294dd98d-3b6a-4966-a334-2052d77b6d47",
     "@type" : "sc:Sequence",
     "label" : [ {
       "@value" : "Normal Sequence",
       "@language" : "en"
     } ],
     "canvases" : [ {
-      "@id" : "http://edc43f68-9667-4fcc-8899-0ab1f4ff436f",
+      "@id" : "http://9aab8ea7-eec5-4b5f-bf37-f7146220e4b6",
       "@type" : "sc:Canvas",
-      "label" : "Hafs_15_8",
+      "label" : "hafs_48_17/",
       "height" : 2048,
       "width" : 1638,
       "images" : [ {
         "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://136c944c-dc18-405d-a85a-767b0b88ca14",
+        "@id" : "http://9db10400-6921-456b-823a-1810425be651",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
-          "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_15_8/full/full/0/default.jpg",
+          "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_48_17/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
           "format" : "image/jpeg",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_15_8",
+            "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_48_17",
             "profile" : "http://iiif.io/api/image/2/level0.json"
           },
           "height" : 2048,
           "width" : 1638
         },
-        "on" : "http://edc43f68-9667-4fcc-8899-0ab1f4ff436f"
+        "on" : "http://9aab8ea7-eec5-4b5f-bf37-f7146220e4b6"
       } ],
       "related" : ""
     } ]
