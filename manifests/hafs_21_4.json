@@ -1,0 +1,61 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/manifests/hafs_21_4.json",
+  "@type" : "sc:Manifest",
+  "label" : "Chester Beatty Library (Leabharlann Chester Beatty): Is. 1431",
+  "metadata" : [ {
+    "label" : "Extent",
+    "value" : "287 folios"
+  }, {
+    "label" : "Format",
+    "value" : "130 x 177"
+  }, {
+    "label" : "Estimated date",
+    "value" : "1000-1000"
+  }, {
+    "label" : "Writing surface",
+    "value" : "Paper"
+  } ],
+  "description" : [ {
+    "@value" : "Quran",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Chester Beatty Library",
+  "sequences" : [ {
+    "@id" : "http://465d3e7c-d414-44c4-8701-f78c1308cf17",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://3cc50fc4-276e-41d0-897d-4fc8ed92af82",
+      "@type" : "sc:Canvas",
+      "label" : "hafs_21_4",
+      "height" : 2048,
+      "width" : 1638,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://da71f99c-847d-47b6-b395-c63f2e9f34eb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_21_4/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_21_4",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2048,
+          "width" : 1638
+        },
+        "on" : "http://3cc50fc4-276e-41d0-897d-4fc8ed92af82"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
