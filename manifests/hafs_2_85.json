@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/manifests/hafs_2_85.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://5a77db42-dd8c-4b2c-aa76-c1c3b0f8cf8b",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://4a581d43-3be0-4b9a-b063-486b1043dca9",
+      "@type" : "sc:Canvas",
+      "label" : "v1",
+      "height" : 2048,
+      "width" : 1638,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ab4a79be-1e1f-4d11-bbbb-83b99d229a37",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_2_85_v1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_2_85_v1",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2048,
+          "width" : 1638
+        },
+        "on" : "http://4a581d43-3be0-4b9a-b063-486b1043dca9"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://8370bcaa-4004-446f-b525-97db37942f1b",
+      "@type" : "sc:Canvas",
+      "label" : "v2",
+      "height" : 2048,
+      "width" : 1638,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6f24bce6-ec87-4a9c-98c7-bf9144ee3653",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_2_85_v2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/images/Hafs_2_85_v2",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2048,
+          "width" : 1638
+        },
+        "on" : "http://8370bcaa-4004-446f-b525-97db37942f1b"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
