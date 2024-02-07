@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/manifests/warsh_48_17.json",
     "label" : "BnF. Département des Manuscrits. Arabe 6430"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/manifests/hafs_21_4.json",
+    "label" : "Chester Beatty Library (Leabharlann Chester Beatty): Is. 1431"
   } ]
 }
