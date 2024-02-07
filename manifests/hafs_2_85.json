@@ -2,14 +2,26 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://mkimechentel.github.io/Quran-Reading-Study/manifests/hafs_2_85.json",
   "@type" : "sc:Manifest",
-  "label" : "[Click to edit label]",
-  "metadata" : [ ],
+  "label" : "Chester Beatty Library (Leabharlann Chester Beatty): Is. 1431",
+  "metadata" : [ {
+    "label" : "Extent",
+    "value" : "287 folios"
+  }, {
+    "label" : "Format",
+    "value" : "130 x 177"
+  }, {
+    "label" : "Estimated date",
+    "value" : "1000-1000"
+  }, {
+    "label" : "Writing surface",
+    "value" : "Paper"
+  } ],
   "description" : [ {
-    "@value" : "[Click to edit description]",
+    "@value" : "Quran",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "[Click to edit attribution]",
+  "attribution" : "Chester Beatty Library ",
   "sequences" : [ {
     "@id" : "http://5a77db42-dd8c-4b2c-aa76-c1c3b0f8cf8b",
     "@type" : "sc:Sequence",
